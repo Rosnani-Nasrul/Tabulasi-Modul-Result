@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kotak_suara"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n
+    Aplikasi ini adalah aplikasi mobile dengan berbasis sistem operasi android. Aplikasi ini disebut sebagai tabulasi pemilihan kepala daerah (PILKADA) berbasis android. \n
+    Tabulasi Pemilihan Kepala Daerah (PILKADA) ini dikembangkan berbasis sistem operasi android bertujuan sebagai alat bantu dalam menyampaikan informasi ke server mengenai perolehan hasil total suara yang diperoleh oleh masing-masing kandidat di tiap-tiap TPS secara cepat dan akurat. \n
+    Tabulasi Pemilihan Kepala Daerah (PILKADA) ini diimplementasikan pada saat perhitungan suara telah selesai di tiap-tiap TPS. Selanjutnya, penginputan data hasil perolehan masing-masing kandidat akan dilakukan oleh seorang user yang bertugas sebagai saksi di TPS yang telah ditentukan. Data yang telah diinputkan oleh saksi tersebut nantinya akan masuk ke server dan akan diolah yang kemudian akan ditampilkan ke publik dalam bentuk grafik mengenai hasil perolehan total suara masing-masing kandidat.  "
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+</LinearLayout>
