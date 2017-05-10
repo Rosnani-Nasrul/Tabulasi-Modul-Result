@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n
+    Sistem Tabulasi Pemilihan Kepala Daerah (PILKADA) ini merupakan sebuah alat bantu berbasis android yang dapat digunakan oleh seorang saksi di tiap TPS untuk menginputkan hasil perolehan total suara masing-masing kandidat. Dalam sistem ini terdapat beberapa menu yang diberikan bagi seorang user sebagai berikut : \n
+    1. Home \n
+        Dalam menu ini akan memberikan informasi mengenai Pemilihan Kepala Daerah (PILKADA) \n
+    2. Profil \n
+        Dalam menu ini akan menampilkan profil dari user yang login setelah mengakses sistem ini. User yang dapat mengakses sistem ini adalah user yang telah didaftarkan sebelumnya oleh seorang admin. \n
+    3. Result \n
+        Dalam menu ini user sebagai saksi akan menginputkan hasil perolehan total suara masing-masing kandidat. \n
+    4. Grafik \n
+        Dalam menu ini akan menampilkan grafik perolehan suara kandidat. \n
+    5. Info \n
+        Dalam menu ini akan menyediakan informasi aplikasi mengenai Sistem Tabulasi Pemilihan Kepala Daerah (PILKADA). \n
+    6. Help \n
+        Dalam menu ini akan memberikan petunjuk mengenai aplikasi. \n
+    5. Info \n
+        Dalam menu ini akan menyediakan informasi aplikasi mengenai Sistem Tabulasi Pemilihan Kepala Daerah (PILKADA). \n
+    6. Logout \n
+        Dengan memilih menu ini maka user akan keluar dari halaman utama sistem."
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+    </ScrollView>
+</LinearLayout>
