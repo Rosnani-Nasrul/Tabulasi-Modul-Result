@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Selamat datang User"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/kotak_suara"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="\n
+        Pemilihan umum kepala daerah dan wakil kepala daerah, atau seringkali disebut Pilkada atau Pemilukada, adalah pemilihan umum untuk memilih Kepala Daerah dan Wakil Kepala Daerah secara langsung di Indonesia oleh penduduk daerah setempat yang memenuhi syarat. Sebelumnya, kepala daerah dan wakil kepala daerah dipilih oleh Dewan Perwakilan Rakyat Daerah (DPRD). Dasar hukum penyelenggaraan pilkada adalah Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah. Dalam undang-undang ini, pilkada (pemilihan kepala daerah dan wakil kepala daerah) belum dimasukkan dalam rezim pemilihan umum (pemilu). Pilkada pertama kali diselenggarakan pada bulan Juni 2005. \n
+        Sejak berlakunya Undang-Undang Nomor 22 Tahun 2007 tentang Penyelenggara Pemilihan Umum, pilkada dimasukkan dalam rezim pemilu, sehingga secara resmi bernama Pemilihan Umum Kepala Daerah dan Wakil Kepala Daerah atau Pemilukada.
+Berdasarkan Undang-Undang Nomor 32 Tahun 2004, peserta Pemilukada adalah pasangan calon yang diusulkan oleh partai politik atau gabungan partai politik. Ketentuan ini diubah dengan Undang-Undang Nomor 12 Tahun 2008 yang menyatakan bahwa peserta Pemilukada juga dapat berasal dari pasangan calon perseorangan yang didukung oleh sejumlah orang. Undang-undang ini menindaklanjuti keputusan Mahkamah Konstitusi yang membatalkan beberapa pasal menyangkut peserta Pemilukada dalam Undang-Undang Nomor 32 Tahun 2004."
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+
+</LinearLayout>

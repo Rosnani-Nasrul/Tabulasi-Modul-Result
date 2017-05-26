@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultKandidat">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="Pilkada   : "/>
+
+            <TextView
+                android:id="@+id/txtNamaPilkada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="XXXXXXXXXXXXXXXXXXX"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="Putaran  : "/>
+
+            <Spinner android:id="@+id/spinnerPutaran"></Spinner>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="TPS           : "/>
+
+            <TextView
+                android:id="@+id/txtTPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="XXXXXXXXXXXXXXXXXXX"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="User         : "/>
+
+            <TextView
+                android:id="@+id/txtNamaLengkap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="XXXXXXXXXXXXXXXXXXX"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="Tanggal   : "/>
+
+            <EditText
+                android:id="@+id/txtTanggal"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:text="Kandidat : "/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f04249"
+        android:fontFamily="serif-monospace"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</LinearLayout>
